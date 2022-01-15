@@ -216,6 +216,10 @@ p{
      width: 100%;
      font-family: 'Rubik', sans-serif;
 }
+.a-incon{
+     font-size: 25px;
+     color: #E02C6D;
+}
 input[type="text"]{
      padding: 10px 10px;
      max-width: 42%;
@@ -231,14 +235,23 @@ input[type="subject"]{
      padding: 10px 10px;
      width: 93%;
 }
+input:focus{
+     color: #E02C6D;
+     border: 2px solid #E02C6D;
+}
 input{
      display: inline-block;
+     border: 2px solid #E02C6D;
+     border-radius: 4px;
 }
 textarea{
      width: 93%;
      padding: 10px;
      margin-bottom: 10px;
      font-family: 'Rubik', sans-serif;
+     border: 2px solid #E02C6D;
+     border-radius: 4px;
+
 }
 .about-form{
      width: 100%;
