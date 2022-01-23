@@ -65,7 +65,7 @@ p{
           header-start
 --------------------------------------------- */
 .main-header{
-    
+     width: ;
       display: grid;
       grid-template-columns: repeat(2, 55% 45%);
       grid-template-rows: repeat(1, 1fr);
@@ -321,7 +321,7 @@ textarea:focus{
 .about-img img{
      width: 34%;
      position: absolute;
-     top: 2px;
+     top: 0px;
 
     
 }
@@ -606,4 +606,7 @@ textarea:focus{
           margin: auto;
      }
     
+}
+.all-right{
+     overflow-x: hidden;
 }
