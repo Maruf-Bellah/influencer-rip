@@ -65,7 +65,7 @@ p{
           header-start
 --------------------------------------------- */
 .main-header{
-     width: ;
+     width: 100% ;
       display: grid;
       grid-template-columns: repeat(2, 55% 45%);
       grid-template-rows: repeat(1, 1fr);
@@ -376,16 +376,32 @@ textarea:focus{
                width: 100%;
                display: flex;
                flex-wrap: wrap;
+               justify-content: center;
              
      }
      .header-text{
                order: 2;
-               width: 1000px;
+               width: 100%;
                text-align: center;
      }
+     .header-para p{
+          margin-left: 0px;
+     }
+
+ 
+     .header-text button{
+          margin-left: 0px;
+     
+     }
+     .header-para h1{
+          margin-left:0px;
+     }
+     
      .header-img img{
           order: -1;
-          width: 100%;
+          width: 80%;
+          padding-left: none;  
+          margin: auto;
          
      }
    /* --------------------------------------
@@ -407,8 +423,8 @@ textarea:focus{
      .collection-name{
           display: grid;
           grid-template-columns: 1fr;
-          width: 100%;
-          height: 100%;
+          width: 90%;
+          height: 80%;
      
      }
      .collection-box{
@@ -461,9 +477,9 @@ textarea:focus{
    
      .about-img img{
           order: 3;
-         width: 60%;
-         top: 0px;
-         left: 100px;
+         width: 70%;
+         top: 0%;
+         left: 18%;
          margin-bottom: 20px;
           position: absolute;
 
@@ -518,6 +534,7 @@ textarea:focus{
      .header-img img{
           order: -1;
           width: 100%;
+          margin-left: 30px;
          
      }
 
@@ -590,8 +607,8 @@ textarea:focus{
      .about-img img{
           order: 3;
          width: 45%;
-         top: 0px;
-         left: 250px;
+         top: 0%;
+         left: 28%;
          margin-bottom: 20px;
           position: absolute;
 
